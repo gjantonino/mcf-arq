@@ -1,0 +1,56 @@
+<div class="col-auto sideNav" [ngStyle]="{'color': textColor, 'background-color': bgColor}">
+  <div class="row">
+    <div class="col">
+      <logo-component class="logoImage" [routerLink]="['/']" (click)='itemClick("HOME")' [fillColor]="textColor">
+      </logo-component>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-left sectionItems">
+      <div class="pb-4 menuButton">
+        <div *ngIf="!showHideMenu" (click)=showMenu()>
+          <svg [style.fill]="textColor" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 30 30">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <path id="menu" class="cls-1" d="M80,413.5H50V410H80v3.5Zm0,13.25H50v-3.5H80v3.5ZM80,440H50v-3.5H80V440Z"
+              transform="translate(-50 -410)" />
+          </svg>
+        </div>
+        <div *ngIf="showHideMenu" (click)=showMenu()>
+          <svg [style.fill]="textColor" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 30 30">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <path id="cerrar" class="cls-1"
+              d="M50,410v30H80V410H50Zm12.525,15L53.5,434.025v-18.05Zm-6.55-11.5h18.05L65,422.525ZM65,427.475l9.025,9.025H55.975ZM67.475,425l9.025-9.025v18.05Z"
+              transform="translate(-50 -410)" />
+          </svg>
+
+        </div>
+      </div>
+      <div *ngIf="showHideMenu">
+        <p name="OBRAS" [routerLink]="['/projects', 'all']" routerLinkActive="activeSection" (click)='itemClick("OBRAS")'
+        class="sideNavItem">OBRAS</p>
+        <div *ngIf="showHideObras" class="ml-2" name="categorias">
+          <p [routerLink]="['/projects', 'all']" outerLinkActive="activeSection" class="sideNavItem">todas</p>
+          <p [routerLink]="['/projects', 'finished']" outerLinkActive="activeSection" class="sideNavItem">finalizadas</p>
+          <p [routerLink]="['/projects', 'inprogress']" outerLinkActive="activeSection" class="sideNavItem">en proceso</p>
+          <p [routerLink]="['/projects', 'projects']" outerLinkActive="activeSection" class="sideNavItem">proyectos</p>
+        </div>
+        <p name="SOBRE MCF" (click)='itemClick("SOBRE MCF")' class="sideNavItem">SOBRE MCF</p>
+        <p name="CONTACTO" (click)='itemClick("CONTACTO")' class="sideNavItem">CONTACTO</p>
+      </div>
+      
+
+    </div>
+  </div>
+</div>

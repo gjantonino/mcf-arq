@@ -1,0 +1,15 @@
+<div class="text-center">
+    <ngb-carousel [showNavigationArrows]="showNav" *ngIf="images">
+        <ng-template *ngFor="let image of images"  ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img class="w-100" [src]="image" alt="Random first slide">
+          </div>
+          <div class="carousel-caption text-right">
+            <h3>Nordelta VI</h3>
+            <p>Espacios verdes y modernidad</p>
+            <p>2019</p>
+          </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+    

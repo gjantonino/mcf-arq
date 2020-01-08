@@ -1,0 +1,11 @@
+<div class="row upperSpace">
+
+</div>
+<div class="projectsMain">
+    <div *ngFor="let obra of obras" class="projectContainer" [ngStyle]="{'background-image': 'url(' + obra.coverImage + ')'}">
+        <div [routerLink]="['/project-details', obra.id]" class="projectFace d-flex flex-column">
+            <div class="projectTitle">{{ obra.nombre }}</div>
+            
+        </div>
+    </div>
+</div>
