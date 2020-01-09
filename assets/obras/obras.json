@@ -9,8 +9,8 @@
         "plantas": 6,
         "unidades": "18 unidades de 2 ambientes",
         "descripcion": "Diversas tipologías\n3 unidades por piso\nCocheras + SUM",
-        "path": "/assets/obras/01",
-        "coverImage": "/assets/obras/01/cover.jpg",
+        "path": "./assets/obras/01",
+        "coverImage": "./assets/obras/01/cover.jpg",
         "id": 1
     },
     {
@@ -23,8 +23,8 @@
         "plantas": 6,
         "unidades": "6 unidades de 2 ambientes",
         "descripcion": "1 unidad por piso\nPalier privado\nCocheras",
-        "path": "/assets/obras/02",
-        "coverImage": "/assets/obras/02/cover.jpg",
+        "path": "./assets/obras/02",
+        "coverImage": "./assets/obras/02/cover.jpg",
         "id": 2
     },
     {
@@ -37,8 +37,8 @@
         "plantas": 6,
         "unidades": "18 unidades de 2 ambientes",
         "descripcion": "Diversas tipologías.\n3 unidades por piso.\nCocheras + SUM",
-        "path": "/assets/obras/03",
-        "coverImage": "/assets/obras/03/cover.jpg",
+        "path": "./assets/obras/03",
+        "coverImage": "./assets/obras/03/cover.jpg",
         "id": 3
     },
     {
@@ -51,8 +51,8 @@
         "plantas": 6,
         "unidades": "18 unidades de 2 ambientes",
         "descripcion": "Diversas tipologías.\n3 unidades por piso.\nCocheras + SUM",
-        "path": "/assets/obras/04",
-        "coverImage": "/assets/obras/04/cover.jpg",
+        "path": "./assets/obras/04",
+        "coverImage": "./assets/obras/04/cover.jpg",
         "id": 4
     },
     {
@@ -65,8 +65,8 @@
         "plantas": 6,
         "unidades": "18 unidades de 2 ambientes",
         "descripcion": "Diversas tipologías.\n3 unidades por piso.\nCocheras + SUM",
-        "path": "/assets/obras/05",
-        "coverImage": "/assets/obras/05/cover.jpg",
+        "path": "./assets/obras/05",
+        "coverImage": "./assets/obras/05/cover.jpg",
         "id": 5
     },
     {
@@ -79,8 +79,8 @@
         "plantas": 6,
         "unidades": "18 unidades de 2 ambientes",
         "descripcion": "Diversas tipologías.\n3 unidades por piso.\nCocheras + SUM",
-        "path": "/assets/obras/06",
-        "coverImage": "/assets/obras/06/cover.jpg",
+        "path": "./assets/obras/06",
+        "coverImage": "./assets/obras/06/cover.jpg",
         "id": 6
     },
     {
@@ -93,8 +93,8 @@
         "plantas": 6,
         "unidades": "18 unidades de 2 ambientes",
         "descripcion": "Diversas tipologías.\n3 unidades por piso.\nCocheras + SUM",
-        "path": "/assets/obras/07",
-        "coverImage": "/assets/obras/07/cover.jpg",
+        "path": "./assets/obras/07",
+        "coverImage": "./assets/obras/07/cover.jpg",
         "id": 7
     }
 ]
