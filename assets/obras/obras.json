@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Fischetti 4596",
-        "etapa": "finalizado",
+        "etapa": "finalizadas",
         "fecha": "",
         "tipo": "",
         "superficieTerrno": "219 m2",
@@ -15,7 +15,7 @@
     },
     {
         "nombre": "Giorello 1494",
-        "etapa": "finalizado",
+        "etapa": "enproceso",
         "fecha": "",
         "tipo": "",
         "superficieTerrno": "78,5",
@@ -29,7 +29,7 @@
     },
     {
         "nombre": "Fischetti 4596",
-        "etapa": "finalizado",
+        "etapa": "finalizadas",
         "fecha": "",
         "tipo": "residencial",
         "superficieTerrno": "219 m2",
@@ -43,7 +43,7 @@
     },
     {
         "nombre": "Fischetti 4596",
-        "etapa": "finalizado",
+        "etapa": "finalizadas",
         "fecha": "",
         "tipo": "residencial",
         "superficieTerrno": "219 m2",
@@ -57,7 +57,7 @@
     },
     {
         "nombre": "Fischetti 4596",
-        "etapa": "finalizado",
+        "etapa": "proyectos",
         "fecha": "",
         "tipo": "residencial",
         "superficieTerrno": "219 m2",
@@ -71,7 +71,7 @@
     },
     {
         "nombre": "Fischetti 4596",
-        "etapa": "finalizado",
+        "etapa": "finalizadas",
         "fecha": "",
         "tipo": "residencial",
         "superficieTerrno": "219 m2",
@@ -85,7 +85,7 @@
     },
     {
         "nombre": "Fischetti 4596",
-        "etapa": "finalizado",
+        "etapa": "enproceso",
         "fecha": "",
         "tipo": "residencial",
         "superficieTerrno": "219 m2",
